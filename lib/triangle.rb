@@ -18,7 +18,7 @@ class Triangle
     if @sidesarray.uniq == 1
       :equilateral
     end
-
+    binding.pry
   end 
   
 end
