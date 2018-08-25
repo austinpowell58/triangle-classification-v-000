@@ -10,6 +10,7 @@ class Triangle
     @firstside = firstside
     @secondside = secondside
     @thirdside = thirdside
+    @sidesarray = [firstside, secondside, thirdside]
   end 
   
   def kind
