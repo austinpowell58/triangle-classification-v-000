@@ -6,7 +6,7 @@ class Triangle
   end 
   
   
-  def initialize(firstside:, secondside:, thirdside:)
+  def initialize(firstside, secondside, thirdside)
     @firstside = firstside
     @secondside = secondside
     @thirdside = thirdside
