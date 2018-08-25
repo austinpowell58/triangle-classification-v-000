@@ -6,7 +6,7 @@ class Triangle
   end 
   
   
-  def initialize(firstside:, secondside:, thirdside:)
+  def initialize(sides)
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end 
   
