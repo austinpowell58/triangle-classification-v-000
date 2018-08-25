@@ -15,7 +15,7 @@ class Triangle
   end 
   
   def kind
-    if @sidesarray.uniq == 1
+    if @sidesarray.uniq.size == 1
       :equilateral
     end
     binding.pry
