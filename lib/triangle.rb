@@ -13,7 +13,7 @@ class Triangle
   end 
   
   def kind
-    if @firstside == @secondside == @thirdside
+    if 
       :equilateral
     end
 
