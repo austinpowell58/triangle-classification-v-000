@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor :firstside, :secondside, :thirdside
+  attr_accessor :firstside, :secondside, :thirdside, :sidesarray
   
   class TriangleError < StandardError
 
