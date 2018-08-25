@@ -1,7 +1,9 @@
 class Triangle
   attr_accessor :firstside, :secondside, :thirdside
   
-  class TriangleError <
+  class TriangleError < StandardError
+
+  end 
   
   
   def initialize(firstside:, secondside:, thirdside:)
