@@ -14,7 +14,7 @@ class Triangle
   end 
   
   def kind
-    if 
+    if @sidesarray.uniq == 1
       :equilateral
     end
 
