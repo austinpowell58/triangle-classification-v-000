@@ -6,12 +6,14 @@ class Triangle
   end 
   
   
-  def initialize(sides)
-    sides.each {|key, value| self.send(("#{key}="), value)}
+  def initialize(firstside:, secondside:, thirdside:)
+    @firstside = firstside
+    @secondside = secondside
+    @thirdside = thirdside
   end 
   
   def kind
-    
+    if 
     
   end 
   
