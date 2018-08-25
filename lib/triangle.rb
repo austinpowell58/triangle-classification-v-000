@@ -1,4 +1,5 @@
 class Triangle
+  require "pry"
   attr_accessor :firstside, :secondside, :thirdside, :sidesarray
   
   class TriangleError < StandardError
